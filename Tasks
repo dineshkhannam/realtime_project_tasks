@@ -1,0 +1,37 @@
+Task1:
+------
+
+1. Create Ec2 instances for Jenkins and Ansible
+2. Write a Ansible play book to install docker on Ec2 instance
+3. Create git repository to store ansible playbook project
+4. Create 3 instances for Dev, Test and Prod
+
+Task2:
+------
+
+Write a jenkins job to run ansible playbook 
+if code is pushed to dev branch in github then dev enveronment should effect.
+if code is pushed to test branch in github then test(QA) enveronment should effect.
+if code is pushed to master branch in github then production enveronment should effect.
+
+
+
+
+Task3:
+------
+
+Run Spring Boot and MongoDB applications using docker compose
+
+Task4:
+------
+Write a shell script which deletes all unwanted docker images, schedule it on every 12 hours
+
+Task5:
+------
+
+1. For every deployment send mail & slack notifications to respective teams
+2. Install nexus server.
+3. On every build manage versions for docker images and push to nexus.
+
+
+
